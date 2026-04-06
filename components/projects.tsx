@@ -1,4 +1,4 @@
-import { Github, ExternalLink, Terminal, Network } from "lucide-react"
+import { Github, ExternalLink, Terminal, Network, Shield, Lock, Users } from "lucide-react"
 
 const projects = [
   {
@@ -7,7 +7,7 @@ const projects = [
     summary:
       "Performed network enumeration using Nmap, identified vulnerable services, and executed controlled exploits with Metasploit including Samba CVE-2007-2447 to gain remote shell access. Evaluated system privilege exposure and documented security hardening recommendations.",
     tags: ["Nmap", "Metasploit", "Samba", "CVE-2007-2447", "Linux"],
-    github: "#",
+    github: "https://github.com/Sarah172/metasploitable2-vulnerability-assessment.git",
   },
   {
     title: "Wireshark Network Traffic Analysis & Protocol Investigation",
@@ -15,8 +15,58 @@ const projects = [
     summary:
       "Analyzed packet captures to diagnose TCP retransmissions, detect ARP spoofing indicators, investigate DNS anomalies, and reconstruct FTP sessions to recover authentication artifacts.",
     tags: ["Wireshark", "TCP/IP", "ARP", "DNS", "FTP"],
-    github: "#",
+    github: "https://github.com/Sarah172/wireshark-network-traffic-analysis.git",
   },
+  {
+    title: "AWS S3 Security Hardening (End-to-End)",
+    icon: Shield,
+    summary:
+      "Secured an AWS S3 environment for a production-like use case by implementing least-privilege IAM access, bucket policies, encryption enforcement, folder-level isolation, activity logging, monitoring, and real-time alerts for destructive actions. Validated access controls through CLI-based testing and blocked all public access.",
+    tags: [
+      "AWS S3",
+      "IAM",
+      "Bucket Policies",
+      "CloudTrail",
+      "CloudWatch",
+      "SNS",
+      "AWS CLI",
+      "Encryption",
+    ],
+    github: "https://github.com/Sarah172/aws-s3-zero-trust-security.git",
+  },
+  {
+    title: "AWS IAM Policy for S3 Access Control",
+    icon: Lock,
+    summary:
+      "Built and tested a least-privilege IAM policy for Amazon S3 that restricted access to object downloads only. Scoped permissions precisely to S3 resources, attached the policy to an IAM user, and validated allowed and denied actions through AWS CLI testing to confirm secure access behavior.",
+    tags: [
+      "AWS IAM",
+      "Amazon S3",
+      "Least Privilege",
+      "IAM Policies",
+      "AWS CLI",
+      "Access Control",
+      "Cloud Security",
+    ],
+    github: "https://github.com/Sarah172/aws-iam-s3-permissions.git",
+  },
+  {
+  title: "Active Directory Access Control Using Group Policy",
+  icon: Users,
+  summary:
+    "Implemented role-based access control in a Windows Server environment by using Active Directory and Group Policy to restrict Remote Desktop (RDP) access for specific user groups. Configured domain infrastructure in Azure, automated user and group creation with PowerShell, and validated access restrictions through real login testing.",
+  tags: [
+    "Active Directory",
+    "Group Policy",
+    "Windows Server",
+    "Azure",
+    "RBAC",
+    "PowerShell",
+    "RDP",
+    "Access Control",
+  ],
+  github: "https://github.com/Sarah172/active-directory-gpo-access-control.git",
+},
 ]
 
 export function Projects() {
@@ -63,7 +113,7 @@ export function Projects() {
                         aria-label={`View ${project.title} on GitHub`}
                       >
                         <Github className="h-3.5 w-3.5" />
-                        Code
+                        View
                         <ExternalLink className="h-3 w-3" />
                       </a>
                     </div>

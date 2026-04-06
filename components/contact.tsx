@@ -27,7 +27,7 @@ export function Contact() {
 
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a
-            href="mailto:sarah@example.com"
+            href="mailto:sarahmorshed@gmail.com"
             className="group inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-purple-600 to-violet-500 px-7 py-3.5 text-sm font-semibold text-white transition-all hover:shadow-xl hover:shadow-purple-500/25 hover:scale-[1.02] active:scale-[0.98]"
           >
             <Send className="h-4 w-4" />
@@ -42,14 +42,14 @@ export function Contact() {
               <Mail className="h-5 w-5" />
             </a>
             <a
-              href="#"
+              href="https://github.com/Sarah172"
               className="flex h-11 w-11 items-center justify-center glass rounded-xl text-muted-foreground transition-all hover:border-purple-400/30 hover:text-purple-400 hover:shadow-lg hover:shadow-purple-500/10"
               aria-label="GitHub"
             >
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/sarah-morshed-25816b65/"
               className="flex h-11 w-11 items-center justify-center glass rounded-xl text-muted-foreground transition-all hover:border-purple-400/30 hover:text-purple-400 hover:shadow-lg hover:shadow-purple-500/10"
               aria-label="LinkedIn"
             >

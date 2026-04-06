@@ -25,7 +25,7 @@ export function Hero() {
               <div className="absolute -inset-1.5 rounded-full bg-gradient-to-br from-purple-500/50 via-violet-400/30 to-purple-600/50 blur-md" />
               <div className="relative h-28 w-28 overflow-hidden rounded-full border-2 border-primary/40 shadow-lg shadow-primary/20">
                 <Image
-                  src="/images/profile.jpg"
+                  src="/images/profile1.jpeg"
                   alt="Sarah Morshed"
                   fill
                   className="object-cover"
@@ -59,14 +59,14 @@ export function Hero() {
               <ChevronDown className="h-4 w-4 transition-transform group-hover:translate-y-0.5" />
             </a>
             <a
-              href="#"
+              href="href= https://github.com/Sarah172" target="_blank" rel="noopener noreferrer"
               className="glass inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-medium text-foreground transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/10 hover:scale-[1.02] active:scale-[0.98]"
             >
               <Github className="h-4 w-4" />
               GitHub
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/sarah-morshed-25816b65/" target="_blank" rel="noopener noreferrer"
               className="glass inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-medium text-foreground transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/10 hover:scale-[1.02] active:scale-[0.98]"
             >
               <Linkedin className="h-4 w-4" />

@@ -1,4 +1,4 @@
-import { Award, GraduationCap, Newspaper, Star, Calculator, ShieldCheck, Globe } from "lucide-react"
+import { Award, GraduationCap, Newspaper, Star, Calculator, ShieldCheck, Globe, SquareChevronRight } from "lucide-react"
 
 const achievements = [
   {
@@ -36,6 +36,11 @@ const achievements = [
     title: "Golden Key Honour Society",
     detail: "Top 15% of students",
   },
+  {
+  icon: SquareChevronRight,
+  title: "Cybersecurity – Growth Edition (Skills for Hire Atlantic)",
+  detail: "Digital Nova Scotia 2026 · Final Score: 95%",
+},
 ]
 
 export function Achievements() {

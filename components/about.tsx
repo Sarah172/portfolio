@@ -3,8 +3,8 @@ import { GraduationCap, Globe, Shield, Award, Calculator, ShieldCheck, BookOpen 
 const quickFacts = [
   { icon: Award, label: "Graduated with Distinction" },
   { icon: Calculator, label: "Minor in Mathematics" },
-  { icon: ShieldCheck, label: "Certificate in Communication Technologies & Cyber Security" },
   { icon: BookOpen, label: "Oxford Study Abroad Program" },
+  { icon: ShieldCheck, label: "Certificate in Communication Technologies & Cyber Security" },
 ]
 
 export function About() {
@@ -31,10 +31,12 @@ export function About() {
             understanding of how enterprise systems are built, maintained, and secured.
           </p>
           <p className="text-lg">
-            I am particularly drawn to the intersection of offensive and defensive security,
-            leveraging hands-on lab environments to sharpen my skills in penetration testing, traffic
-            analysis, and incident investigation. My goal is to contribute to building resilient
-            digital infrastructure that organizations can trust.
+            I am particularly interested in cybersecurity roles that combine technical 
+            depth with strategic impact, including areas such as security engineering, cyber risk, 
+            identity and access management (IAM), and security architecture. I am also curious about 
+            the emerging risks surrounding artificial intelligence, including AI governance, 
+            security implications of AI systems, and how organizations can manage this new attack surface 
+            responsibly.
           </p>
         </div>
 

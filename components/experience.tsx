@@ -5,18 +5,43 @@ const experiences = [
     title: "Technical Support Engineer Co-op",
     company: "SolutionInc.",
     bullets: [
-      "Designed and troubleshot secure Wi-Fi networks in commercial environments.",
-      "Supported network infrastructure and connectivity systems.",
-      "Resolved incidents through structured troubleshooting processes.",
+    "Monitored and troubleshot network and connectivity issues, supporting reliable access for 100s of users.",
+    "Responded to incidents and service requests, following structured triage and escalation processes.",
+    "Collaborated with internal teams to resolve issues efficiently while maintaining clear communication.",
     ],
   },
   {
     title: "IT Operations Specialist Co-op",
     company: "High Liner Foods",
     bullets: [
-      "Provided Tier 1\u20132 technical support across North America.",
-      "Migrated 250+ intranet pages to SharePoint with governance controls.",
-      "Evaluated ERP integration vendors and presented technical analysis to leadership.",
+      "Delivered Tier 1\u20132 technical support across Canada and the U.S., triaging and resolving incidents using ServiceNow.",
+      "Maintained and improved IT service workflows and dashboards, supporting operational efficiency.",
+      "Migrated 250+ intranet pages to SharePoint with governance controls, improving data security and access management.",
+      "Tested backend workflows to ensure reliability and accuracy of enterprise systems.", 
+      "Evaluated ERP integration vendors and presented technical analysis to leadership, supporting decision-making.",
+    ],
+  },
+    {
+    title: "FCS Student Engagement Leader",
+    company: "Dalhousie Faculty of Computer Science",
+    bullets: [
+      "Improved communication strategies using data-driven insights, increasing engagement by 20%.",
+      "Led cross-functional initiatives and events, strengthening collaboration across teams.",
+    ],
+  },
+    {
+    title: "Vice President",
+    company: "Dalhousie Golden Key Honour Society",
+    bullets: [
+      "Recognized among top 15% of students and part of global honor society.",
+      "Co-led operations and organized major events including blood drives, charity, and innovation panels.",
+    ],
+  },
+      {
+    title: "Women in STEM Society Mentor",
+    company: "Dalhousie University",
+    bullets: [
+      "Mentored students in technical and academic development promoting professional growth in STEM.",   
     ],
   },
 ]
