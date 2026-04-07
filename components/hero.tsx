@@ -25,7 +25,7 @@ export function Hero() {
               <div className="absolute -inset-1.5 rounded-full bg-gradient-to-br from-purple-500/50 via-violet-400/30 to-purple-600/50 blur-md" />
               <div className="relative h-28 w-28 overflow-hidden rounded-full border-2 border-primary/40 shadow-lg shadow-primary/20">
                 <Image
-                  src="/images/profile1.jpeg"
+                  src="public/images/profile1.jpeg"
                   alt="Sarah Morshed"
                   fill
                   className="object-cover"
