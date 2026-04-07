@@ -59,7 +59,7 @@ export function Hero() {
               <ChevronDown className="h-4 w-4 transition-transform group-hover:translate-y-0.5" />
             </a>
             <a
-              href="href= https://github.com/Sarah172" target="_blank" rel="noopener noreferrer"
+              href="https://github.com/Sarah172" target="_blank" rel="noopener noreferrer"
               className="glass inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-medium text-foreground transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/10 hover:scale-[1.02] active:scale-[0.98]"
             >
               <Github className="h-4 w-4" />
